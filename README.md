@@ -19,7 +19,7 @@ In this example we will use Sprout Forms.
 3. Update the file to include your translations
 4. Copy your new translation file to your `sproutforms/translations` folder.
 
-To translate an item into your language, update the data 
+To translate an item into your language, update the second phrase in the array of data to your language:
 
 **en_us.php**
 
