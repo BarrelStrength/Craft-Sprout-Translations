@@ -16,10 +16,23 @@ In this example we will use Sprout Forms.
 
 1. Copy the translation file from sproutforms/translations/en_us.php
 2. Rename the file to your chosen language: `en_us.php` => `nl.php`
-3. Update the file to include your translations:
-
-- en_us.php: 'Add a form' => 'Add a form',
-- nl.php: 'Add a form' => 'Formulier toevoegen',
-
+3. Update the file to include your translations
 4. Copy your new translation file to your `sproutforms/translations` folder.
 
+To translate an item into your language, update the data 
+
+**en_us.php**
+
+``` php
+return array (
+	'Add a form' => 'Add a form',
+);
+```
+
+**nl.php**
+
+``` php
+return array (
+	'Add a form' => 'Formulier toevoegen',
+);
+```
